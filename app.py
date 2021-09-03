@@ -30,7 +30,7 @@ def get_api():
     return jsonify(data)
 
 @app.route(',/,')
-def hi():
+def Hi():
     return "สวัสดีค้าบบบ"    
         
 if __name__ == "__main__":
